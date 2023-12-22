@@ -11,8 +11,8 @@ public class ChatClient {
 
     public static void main(String[] args) {
         try {
-            // Задержка в 5 секунд
-            Thread.sleep(5000);
+
+            Thread.sleep(6000);
 
             Socket socket = new Socket(SERVER_IP, SERVER_PORT);
 
